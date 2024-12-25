@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-int	ft_control(int c, va_list arg)
+static int	ft_control(int c, va_list arg)
 {
 	size_t	s;
 
